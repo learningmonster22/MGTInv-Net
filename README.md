@@ -15,12 +15,10 @@ scikit-learn>=0.24.0
 Quick Start
 1. Prepare Your Data
 bash
-# Split your dataset into train/val/test sets
 python split_hdf5_three_way.py
 
 2. Train the Model
 bash
-# Basic training with default parameters
 python main.py \
     --train_path ./data/train_data.h5 \
     --val_path ./data/val_data.h5 \
@@ -28,7 +26,6 @@ python main.py \
     
 3. Generate Predictions
 bash
-# Generate predictions using trained model
 python predict.py
 
 Dataset Preparation
