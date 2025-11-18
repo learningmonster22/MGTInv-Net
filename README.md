@@ -12,6 +12,7 @@ tqdm>=4.62.0
 matplotlib>=3.3.0
 scipy>=1.7.0
 scikit-learn>=0.24.0
+
 Quick Start
 1. Prepare Your Data
 bash
@@ -70,23 +71,6 @@ python main.py \
     --device cuda \
     --result_dir ./experiment_1
 
-Project Structure
-text
-MGTInv-Net/
-├── data_loader.py          # Dataset loading and preprocessing
-├── network.py              # U-Net++ APSTF model architecture
-├── solver.py               # Training controller and utilities
-├── main.py                 # Main training script
-├── predict.py              # Inference and prediction script
-├── split_hdf5_three_way.py # Dataset splitting utility
-├── requirements.txt        # Python dependencies
-├── LICENSE                 # MIT License
-├── README.md              # Project documentation
-└── results/               # Training outputs (created automatically)
-    ├── best_model.pth     # Best model weights
-    ├── norm_stats.pkl     # Normalization statistics
-    ├── loss_curves.png    # Training history plot
-    └── test_results.txt   # Test set evaluation
 Model Architecture
 U-Net++ with APSTF
 Input: 6-channel 25×25 magnetic tensor components
