@@ -35,7 +35,6 @@ The system expects HDF5 files with the following structure:
 
 Input Components (each 25×25):
 magnetic_input_Bxx,magnetic_input_Bxy,magnetic_input_Bxz,magnetic_input_Byy,magnetic_input_Byz,magnetic_input_Bzz,
-
 Output (24×24×24):
 magnetic_output
 
