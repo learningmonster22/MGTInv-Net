@@ -111,7 +111,6 @@ loss_curves.png: Training and validation loss history
 test_results.txt: Quantitative evaluation on test set
 
 Example Output
-text
 Test loss: 0.004567
 Best model epoch: 85
 Best validation loss: 0.003892
